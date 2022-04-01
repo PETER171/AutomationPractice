@@ -11,8 +11,8 @@ public class TestCase4 {
 	@Test
 	public static void test1() throws InterruptedException {
 
-		String username  = "leratokhambule171@gmail.com";
-		String password  = "Kh@mbul3";
+		String username  = "useremail";
+		String password  = "userpassword";
 		String path = System.getProperty("user.dir");
 		System.setProperty("webdriver.chrome.driver", path+"/Drivers/Chrome/chromedriver");
 		WebDriver driver = new ChromeDriver();
